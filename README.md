@@ -67,7 +67,6 @@ The script will automatically:
 
 · Create virtual environment
 · Install dependencies
-· Check configuration
 · Start the bot
 
 Method 2: Manual Installation
@@ -84,13 +83,13 @@ source venv/bin/activate
 venv\Scripts\activate
 ```
 
-1. Install dependencies
+2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Run the bot
+3. Run the bot
 
 ```bash
 python bot.py
