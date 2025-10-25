@@ -13,15 +13,6 @@ call venv\Scripts\activate.bat
 echo Installing dependencies...
 pip install -r requirements.txt
 
-if not exist ".env" (
-    echo Warning: .env file not found!
-    echo Please create .env file from .env.example
-    copy .env.example .env
-    echo Created .env file. Please edit it with your Discord token before running again.
-    pause
-    exit /b 1
-)
-
 echo Starting bot...
 python bot.py
 pause
