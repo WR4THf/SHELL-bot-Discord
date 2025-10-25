@@ -1,3 +1,4 @@
+![logo](https://github.com/WR4THf/SHELL-bot-Discord/blob/main/shell-bot.png)
 # SHELL-bot for Discord
 A Discord bot that acts as a Unix-like terminal emulator, allowing authorized administrators to execute shell commands directly from Discord.
 
